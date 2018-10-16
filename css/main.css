@@ -1,0 +1,37 @@
+.bear-head:hover #left-ear {
+  transform: translateY(0);
+  animation: left-ear 1s ease infinite alternate;
+}
+
+.bear-head:hover #right-ear {
+  transform: translateY(0);
+  animation: right-ear 1s ease infinite alternate;
+}
+
+.left-eye,
+.right-eye {
+
+}
+
+
+@keyframes left-ear {
+
+  0% {
+    transform: translateY(50px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes right-ear {
+
+  0% {
+    transform: translateY(50px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
