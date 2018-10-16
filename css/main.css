@@ -1,11 +1,17 @@
 .bear-head:hover #left-ear {
-  transform: translateY(0);
-  animation: left-ear 1s ease infinite alternate;
+  transform: translateY(-10px);
+}
+
+#left-ear {
+  transition: all .5s linear;
 }
 
 .bear-head:hover #right-ear {
-  transform: translateY(0);
-  animation: right-ear 1s ease infinite alternate;
+  transform: translateY(-10px);
+}
+
+#right-ear {
+  transition: all .5s linear;
 }
 
 #right-eye {
