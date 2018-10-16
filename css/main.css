@@ -8,8 +8,62 @@
   animation: right-ear 1s ease infinite alternate;
 }
 
-.left-eye,
-.right-eye {
+#right-eye {
+  animation: right-eye 3s linear alternate;
+}
+
+#left-eye {
+  animation: left-eye 3s linear alternate;
+}
+
+
+@keyframes right-eye {
+
+  0% {
+    transform: translateX(0px);
+  }
+
+  25% {
+    transform: translateX(-10px);
+  }
+
+  50% {
+    transform: translateX(0px);
+  }
+
+  75% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+
+
+}
+
+@keyframes left-eye {
+
+
+    0% {
+      transform: translateX(0px);
+    }
+
+    25% {
+      transform: translateX(-10px);
+    }
+
+    50% {
+      transform: translateX(0px);
+    }
+
+    75% {
+      transform: translateX(-10px);
+    }
+
+    100% {
+      transform: translateX(0);
+    }
 
 }
 
